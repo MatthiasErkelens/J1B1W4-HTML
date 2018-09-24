@@ -1,48 +1,48 @@
-alert("u moet de volgende vragen beantwoorden u mag geen rekenmachine gebruiken.")
+alert("u moet de volgende vragen beantwoorden, de vragen gaan over Nederland.")
 
 
 var vraag;
 var points=0;
 
-antwoord = prompt("Wat is 5x9?");
+antwoord = prompt("Welk land ligt ten zuiden van Nederland?");
 
-if (antwoord == '45') {
+if (antwoord == 'belgië') {
     points = points + 1;
-    antwoord = prompt('Wat is 6x6?');
+    antwoord = prompt('Hoeveel coupletten heeft het Wilhelmus?');
 
-    if (antwoord == '36') {
+    if (antwoord == '15') {
         points=points+1;
-        antwoord = prompt('Wat is 7x6?');
+        antwoord = prompt('Hoe heet het grootste Nederlandse Waddeneiland?');
 
-        if (antwoord == '42') {
+        if (antwoord == 'texel') {
             points=points+1;
-            antwoord = prompt('Wat is 7+6?');
+            antwoord = prompt('Op welke datum is koningin Beatrix jarig?');
 
-            if (antwoord == '13') {
+            if (antwoord == '31 januari') {
                 points=points+1;
-                antwoord = prompt('Wat is 9x2?');
+                antwoord = prompt('Welke provincie in Nederland is het dunst bevolkt?');
 
-                 if (antwoord == '18') {
+                 if (antwoord == 'drenthe') {
                     points=points+1;
-                    antwoord = prompt('Wat is 10x2?');
+                    antwoord = prompt('Wat is de start en aankomstplaats van de Elfstedentocht?');
 
-                    if (antwoord == '20') {
+                    if (antwoord == 'leeuwarden') {
                         points=points+1;
-                        antwoord = prompt('Wat is 19x2?');
+                        antwoord = prompt('In welke stad vind je het Nederlands Spoorwegmuseum');
 
-                        if (antwoord == '38') {
+                        if (antwoord == 'utrecht') {
                             points=points+1;
-                            antwoord = prompt('Wat is 20x2?');
+                            antwoord = prompt('Welke dam sluit het IJsselmeer af van de Waddenzee?');
 
-                                 if (antwoord == '40') {
+                                 if (antwoord == 'de afsluitdijk') {
                                     points=points+1;
-                                    antwoord = prompt('Wat is 100x2?');
+                                    antwoord = prompt('Welke achternaam komt in Nederland het meest voor?');
 
-                                     if (antwoord == '200') {
+                                     if (antwoord == 'de vries') {
                                          points=points+1;
-                                         antwoord = prompt('Wat is 20x20?');
+                                         antwoord = prompt('In welke zee liggen de Waddeneilanden?');
 
-                                         if (antwoord == '400') {
+                                         if (antwoord == 'noordzee') {
                                             points=points+1;
                                             alert("U heeft een perfecte score behaald!")
 } else {
@@ -83,7 +83,7 @@ if (antwoord == '45') {
 }
 alert('U heeft ' + points +  ' punt(en) behaald van de 10.');
 
-document.write('Oefenen toets rekenen. <br>');
+document.write('quiz over Nederland. <br>');
 
 document.write('U heeft ' + points +  ' punt(en) behaald van de 10.<br>');
 
